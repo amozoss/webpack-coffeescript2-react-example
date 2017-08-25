@@ -1,0 +1,29 @@
+{
+  "name": "webpack-coffee2-react-example",
+  "version": "0.0.0",
+  "description": "Example Webpack configuration for coffeescript2 and React",
+  "main": "index.coffee",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js",
+    "watch": "node_modules/webpack/bin/webpack.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amozoss/webpack-coffeescript2-react-example.git"
+  },
+  "author": "Dan Willoughby <amozoss@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amozoss/webpack-coffeescript2-react-example/issues"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "coffee-loader": "^0.8.0",
+    "coffeescript": "^2.0.0-beta4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5"
+  }
+}
